@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../../style/style_cap.css">
+</head>
+<body>
+    <header >
+        <div class="container">
+        <div >
+            <div class="logo"></div>
+                <h1>Мое второе занятие</h1>
+        </div>
+        <nav>
+            <a href="../../Home.html" class="blue">О себе</a>
+            <a href="../../My_goals.html" class="blue">Мои цели</a>
+            <a href="../lessons.html"class="white">Занятия</a>
+            <a href="../../layout/layout.html"class="blue">Макеты</a>
+            <a href="https://google.com" target="_blank" class="blue">Google</a>
+        </nav>
+    </div>
+    </header>
+    <main>
+        <nav>
+            <a href="../first_lesson/My_first_lesson.html" class="blue">мое первое занятие</a>
+            <a href="../second_lesson/My_second_lesson.html" class="blue">мое второе занятие</a>
+            <a href="../third_lesson/My_third_lesson.html" class="blue">мое третье занятие</a>
+            <a href="../fourth_lesson/My_fourth_lesson.html" class="blue">мое четвертое занятие</a>
+            <a href="../fifth_lesson/My_fifth_lesson.html" class="blue">мое пятое занятие</a>
+            <a href="../sixth_lesson/sixth_lesson.html" class="blue">мое шестое занятие</a>
+            <a href="../seventh_lesson/seventh_lesson.html" class="blue">мое седьмое занятие</a>
+            <a href="../eighth_lesson/eighth_lesson.html" class="blue">мое восьмое занятие</a>
+            <a href="#" class="white">мое девятое занятие</a>
+        </nav>
+        <div class="container2">
+            <div class="sections">
+            <h2>  <a href="https://developer.mozilla.org/ru/docs/Web/CSS/Pseudo-classes" target="_blank">  Псевдоклассы </a></h2>
+            <div>
+                <p> Псевдокласс в CSS — это ключевое слово, добавленное к селектору, которое определяет его особое состояние. Например, :hover может быть использован для изменения цвета кнопки при наведении курсора на неё. </p></div>
+                <p>Псевдоклассы дают возможность стилизовать элемент на основе не только отношений в DOM-дереве, но и основываясь на внешних факторах, таких как история посещений (например, :visited), состояние содержимого (вроде :checked у некоторых элементов формы) или позиции курсора мыши (например, :hover определяет, находится ли курсор мыши над элементом).</p>
+            </div>
+            <div class="sections">
+                <h2>Список стандартных псевдоклассов</h2>
+                <div class="gla">
+                    <a href="https://developer.mozilla.org/ru/docs/Web/CSS/:active">:active</a>
+                    <p>Псевдокласс :active соответствует элементу в момент, когда он активируется пользователем. Он позволяет странице среагировать, когда элемент активируется. Взаимодействие элемента с мышью - это, как правило, время между нажатием и отпусканием пользователем кнопки мыши.</p>
+                </div>
+                <div class="gla">
+                    <a href="https://developer.mozilla.org/ru/docs/conflicting/Web/CSS/:is">:any</a>
+                    <p>Псевдокласс :any() дает возможность быстрого конструирования наборов похожих селекторов путем составления групп, в которых каждый из входящих элементов будет комбинироваться с элементами из других групп. Это альтернатива для прописывания комбинаций селекторов для одного элемента, который может находится в разных родителях.</p>
+              </div>
+                <div class="gla">
+                    <a href="https://developer.mozilla.org/ru/docs/Web/CSS/:any-link">:any-link</a>
+                    <p>Селектор псевдокласса CSS :any-link представляет собой элемент, который действует как исходный якорь гиперссылки независимо от того, была ли она посещена. Другими словами, он соответствует всем элементам a, area, или link, которые имеют атрибут  href. Таким образом, он соответствует всем элементам, которые используют :linkили :visited.</p> 
+                </div>
+                <div class="gla">
+<a href="https://developer.mozilla.org/ru/docs/Web/CSS/:checked">:checked</a>
+<p>CSS псевдоклассы :checked CSS находит любые элементы  radio ( input type="radio"), checkbox ( input type="checkbox") или  option ( option внутри  select), которые выбраны или включены. Пользователь может изменить это состояние, разрушится на элемент, или выбрав другое значение, в этом случае  :checked повторно не применится к элементу, а сохранится.</p>
+
+                </div>
+                <div class="gla">
+                    <a href="https://developer.mozilla.org/ru/docs/Web/CSS/:default">:default </a>
+<p>Сгруппированные элементы, поддерживающие множественный выбор, также могут иметь несколько элементов, выбранных по умолчанию. В этом случае псевдокласс  :default найдет  все  эти элементы. Например, можно стилизовать чекбоксы по умолчанию в группе чекбоксов.</p>
+                </div>
+                <div class="gla">
+                    <a href="https://developer.mozilla.org/ru/docs/Web/CSS/:defined">:defined</a>
+                 <p>CSS псевдо-класс :defined  находит любой элемент, который был установлен, включая любой стандартный встроенный в браузер элемент и пользовательские элементы  (то есть определенные с помощью метода  CustomElementRegistry.define() (en-US) ).</p>                  
+                </div>
+                <div class="gla">
+                    <a href="https://developer.mozilla.org/ru/docs/Web/CSS/:dir">:dir()</a>
+                   <p>:dir() — это псевдо-класс CSS, который выбирает элементы на основе направления текста в них.</p>
+
+                </div>
+                <div class="gla">
+                    <a href="https://developer.mozilla.org/ru/docs/Web/CSS/:disabled">:disabled</a>
+                    <p>CSS псевдо-класс :disabled находит любой отключенный элемент. Элемент отключен, если не может быть активирован (например, его нельзя выбрать, нажать на него или ввести текст) или получить фокус. У элемента также есть включенное состояние, когда его можно активировать или сфокусировать.</p>
+                </div>
+                <div class="gla">
+                    <a href="https://developer.mozilla.org/ru/docs/Web/CSS/:empty">:empty</a>
+                    <p>псевдокласс :emptyнаходит любой элемент, у которого нет потомков. Учитываются элементы и текст (включая пробелы). Комментарии не повлияют на то, что элемент будет рассматриваться как не пустой.</p>
+                </div>
+            </div>
+            </div>
+            <div class="container2">
+                <div class="sections">
+                <h2>  <a href="https://developer.mozilla.org/ru/docs/Web/CSS/Pseudo-classes" target="_blank">  Псевдоэлементы </a></h2>
+                <div>
+                    <p> Псевдоэлемент в CSS — это ключевое слово, добавляемое к селектору, которое позволяет стилизовать определённую часть выбранного элемента. Например, псевдоэлемент ::first-line может быть использован для изменения шрифта первой строки абзаца. </p></div>
+                  </div>
+                <div class="sections">
+                    <h2>Список стандартных псевдоклассов</h2>
+                    <div class="gla">
+                        <a href="https://developer.mozilla.org/ru/docs/Web/CSS/::after">::after</a>
+                        <p>В CSS, ::after создаёт псевдоэлемент, который является последним потомком выбранного элемента. Часто используется для добавления косметического содержимого в элемент с помощью свойства content. По умолчанию является инлайновым.</p>
+                    </div>
+                    <div class="gla">
+                        <a href="https://developer.mozilla.org/ru/docs/Web/CSS/::before">::before (:before)</a>
+                        <p>В CSS, ::before создаёт псевдоэлемент,который является первым потомком выбранного элемента. Часто используется для добавления косметического содержимого в элемент с помощью свойства content. По умолчания является инлайновым.</p>
+                  </div>
+                    <div class="gla">
+                        <a href="https://developer.mozilla.org/ru/docs/Web/CSS/::cue">::cue</a>
+                        <p>Псевдоэлемент CSS ::cue соответствует репликам WebVTT в выбранном элементе. Он может быть использован для задания стилей титров и других реплик в медиа с VTT треками.</p> 
+                    </div>
+                    <div class="gla">
+    <a href="https://developer.mozilla.org/ru/docs/Web/CSS/::first-letter">::first-letter (:first-letter)</a>
+    <p>CSS псевдоэлемент ::first-letter применяет стили к первой букве первой строки блочного элемента, но только если нету другого предшествующего содержимого (такого как изображения или инлайн таблицы).</p>
+    
+                    </div>
+                </div>
+                </div>
+    </main>
+</body>
+</html>

@@ -1,0 +1,449 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "OpenSans";
+}
+
+header {
+    background-color: #f6f2f2;
+}
+header nav{
+    height: 90px;
+    background-color: #313030;
+    text-align: center;
+}
+header nav a{
+    display: inline-block;
+    color: white;
+    line-height: 80px;
+    padding: 10px 25px 0 25px;
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+header nav a.active{
+    background-color: #ff3f40;
+}
+.present{
+    text-align: justify;
+    padding-bottom: 60px;
+}
+.present .head {
+    width: 500px;
+    display: inline-block;
+    padding-top: 100px;
+    vertical-align: top;
+}
+.present .head h1{
+    font-size: 60px;
+    text-transform: uppercase;
+    font-family: bolder;
+    text-align: left;
+}
+.present .head .discription{
+    color: #494848;
+    font-size: 18px;
+    line-height: 30px;
+    padding-top: 25px;
+    padding-bottom: 60px;
+}
+.present .video {
+    display: inline-block;
+    vertical-align: top;
+    padding-top: 100px;
+}
+.present .video .video-content{
+    width: 550px;
+    height: 360px;
+    box-shadow: 0 0 10px 2px black;
+}
+.services .container .present{
+    text-align: justify;
+    border-bottom: 2px solid #ececec;
+}
+.present .head h2{
+    font-size: 34px;
+    text-transform: uppercase;
+    text-align: left;
+}
+.services .present .head .discription{
+    color: #494848;
+    font-size: 18px;
+    line-height: 30px;
+}
+.present .nav {
+    display: inline-block;
+    padding-top: 100px;
+}
+
+.nav div{
+    text-align: justify;
+    line-height: 30px;
+}
+
+.blocks{
+    padding-left: 45px;
+ text-align: justify;
+    display: inline-block;
+    vertical-align: top;
+    width: 290px;
+    height: 235px ;
+    vertical-align: top;
+}
+.blocks h3{
+    padding-top: 30px;
+}
+.blocks div{
+    padding-top: 20px;
+}
+.img_setting{
+    width: 40px;
+    height: 40px;
+}
+.img_pencil{
+width: 40px;
+height: 40px;
+
+}
+.img_diamond{
+    width: 40px;
+    height: 35px;
+}
+.img_truck{
+height: 30px;
+width: 40px;
+}
+.blocks div{
+    color: #494848;
+    font-size: 16px;
+    line-height: 30px;
+    width: 275px;
+    height: 100px;
+}
+.div_button{
+    padding-top: 50px;
+}
+.present2{
+    display: inline-block;
+    text-align: center;
+}
+.container .present2 div{
+    display: inline-block;
+    text-align: center;
+}
+.container .present2 div h2{
+padding-top: 70px;
+}
+.container .present2 div .lor{
+    text-align: center;
+    padding-top: 35px;
+    padding-left: 356px ;
+    padding-right: 356px;
+    color: #585858;
+    font-size: 16px;
+}
+.hr{
+    width: 100px;
+    text-align: center;
+    background-color: #ff3f40;
+    height: 2px;
+}
+.present2 nav a{
+    display: inline-block;
+    color: #4c4c4c;
+    line-height: 80px;
+    padding: 10px 30px 0 30px;
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.squares{
+    padding-top: 60px;
+    width: 100%;
+text-align: center;
+}
+.squares div{
+    margin: 5px 5px;
+    display: inline-block;
+    background-color: #f5f0dd ;
+    width: 290px;
+    height: 290px;
+}
+.container .present3 h2{
+    padding-top: 100px;
+}
+.container .present3 .lo {
+    padding-right: 800px;
+}
+.container .present3 .hr2{
+    width: 130px;
+    height: 2px;
+    background-color: #ff3f40;
+}
+.present3 .lo{
+    padding-bottom: 35px;
+    padding-top: 35px;
+    color: #585858;
+    font-size: 16px;
+}
+.present3 .information{
+    padding-top: 0px;
+    padding-bottom: 110px;
+}
+.present3 .squares2{
+    display: inline-block;
+    width: 322px;
+    height: 460px;
+    background-color:#f5f0dd  ;
+}
+.present3 .data{
+    display: inline-block;
+    padding-left: 75px;
+}
+
+.data .lo2{
+    padding-top: 35px;
+    height: 50px;
+    width: 640px;
+    color: #585858;
+    font-size: 16px;
+}
+.data nav{
+    padding-top: 45px;
+}
+.set_of_squares div{
+    display: inline-block;
+    margin: 5px 5px;
+    width: 195px;
+    height: 210px;
+    background-color:#f5f0dd  ;
+}
+.data nav a{
+    display: inline-block;
+    color: #4c4c4c;
+    line-height: 80px;
+    padding: 10px 30px 0 30px;
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: inherit;
+    font-weight: normal;
+}
+.desing{
+    text-align: center;
+    display: inline-block;
+    padding-top: 140px;
+    height: 510px;
+    width: 100%;
+    background-color: #f5f0dd ;
+}
+.desing h2{
+    color: white;
+    font-size: 40px;
+}
+.desing div{
+    padding-top: 40px;
+    font-size: 12px;
+    color: white;
+}
+.desing .email_sub{
+    margin: 60px auto 0 auto;
+    display: inline-block;
+}
+.get_email{
+    display: inline-block;
+    margin-top: -35px;
+}
+input[type='email']{
+    margin-right: 20px;
+    padding-left: 40px;
+    font-size: 20px;
+    height: 80px;
+    width: 520px;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 6px;
+}
+.get_email input[type='submit']{
+    line-height: 80px;
+    font-size: 20px;
+    padding: 0 65px;
+    border: 2px solid #ff3f40;
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: bold;
+    color: #ffffff;
+    background-color:#ff3f40 ;
+    vertical-align: top;
+}
+.desing .email_sub .button_2{
+    line-height: 80px;
+    font-size: 20px;
+    padding: 0 65px;
+    border: 2px solid #ff3f40;
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: bold;
+    color: #ffffff;
+    background-color:#ff3f40 ;
+    vertical-align: top;
+}
+.head h2{
+    padding-top: 70px;
+}
+.head .lo{
+    padding-bottom: 55px;
+    padding-top: 35px;
+    height: 50px;
+    width: 640px;
+    color: #585858;
+    font-size: 16px;
+}
+.head .hr2 {
+    width: 130px;
+    height: 2px;
+    background-color: #ff3f40;
+}
+.head .Name_Mail_Type__SEND{
+    padding-top: 75px;
+
+}
+.head .Name_Mail_Type__SEND{
+    display:inline-block;
+}
+.head .Contact_info{
+    display:inline-block;
+}
+.Name_Mail{
+    padding-bottom: 45px;
+}
+.Name_Mail .Name{
+    display:inline-block;
+    margin-right: 55px;
+}
+input[type='name']{
+    width: 295px;
+    height: 70px;
+    border-radius: 6px;
+    border-radius: 6px;
+    font-size: 20px ;
+    padding-left: 40px;
+    border: none;
+    background-color: #e5e5e5;
+}
+.Name_Mail .Mail{
+    display:inline-block;
+}
+.Mail input[type='email']{
+    width: 295px;
+    height: 70px;
+    border-radius: 6px;
+    border: none;
+    background-color: #e5e5e5;
+}
+.Type_SEND .Type{
+    margin-bottom: 45px;
+}
+.Type textarea[type='comment']{
+    padding: 20px 40px;
+    font-size: 20px;
+    padding-bottom: -100px;
+    width: 650px;
+    height: 250px;
+    background-color: #e5e5e5;
+}
+.Type_SEND input[type='submit']{
+    line-height: 55px;
+    padding: 0 310px;
+    border: 2px solid #ff3f40;
+    background-color: #ff3f40 ;
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: bold;
+    color: white;
+}
+.Name_Mail_Type__SEND_Cotact .Contact_info{
+    margin-top: 75px;
+    margin-left: 75px;
+    font-size: 16px;
+    width: 410px;
+    height: 480px;
+    background-color: #2d2d2d;
+    color: white;
+    vertical-align: top;
+}
+.Contact_info h4 {
+    margin-left: 70px;
+    padding-top: 140px;
+    padding-bottom: 40px;
+}
+.Contact_info .jalala{
+    font-size: 16px;
+    margin-left: 70px;
+    width: 290px;
+    height: 45px;
+}
+.Contact_info .red{
+    font-size: 16px;
+    margin-left: 70px;
+    padding-top: 45px;
+}
+.Facebook{
+    padding-top: 60px;
+    width: 100%;
+    height: 110px;
+    background-color: #313030;
+}
+.Facebook .copy {
+    font-size: 16px;
+    color: #b8b8b8;
+    display:inline-block;
+}
+.Facebook .img_Twi{
+    vertical-align: top;
+    display:inline-block;
+    padding-left: 660px;
+}
+.twitter{
+    width: 10px;
+    height: 30px;
+    background-image: url("/img/1468368398_Twitter_Rounded_Solid.png");
+}
+
+
+/*common*/
+.contai{
+    width: 100%;
+    background-color:#f5f0dd ;
+}
+.container{
+    width: 1280px;
+    padding: 30px 18px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+.button{
+    line-height: 55px;
+    padding: 0 65px;
+    border: 2px solid #ff3f40;
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: bold;
+    color: #ff3f40;
+}
+.button:hover{
+    background-color: #ff3f40 ;
+    color: white;
+}
+.last-line{
+    display: inline-block;
+    width: 100%;
+}
+
+
+

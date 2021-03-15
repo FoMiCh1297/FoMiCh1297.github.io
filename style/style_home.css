@@ -1,0 +1,24 @@
+
+main div{
+    margin: 20px 40px;
+}
+main .div{
+    padding: auto auto;
+}
+main div .Face{
+    padding: auto 5px;
+    width: 500px;
+    height: 500px;
+    background-image: url("../image/photo_2020-10-08_14-57-01.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 200px;
+    display: inline-block;
+    vertical-align: middle;
+    
+}
+main div .text{
+    display: inline-block;
+  
+}
+

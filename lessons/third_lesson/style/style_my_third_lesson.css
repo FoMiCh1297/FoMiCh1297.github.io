@@ -1,0 +1,58 @@
+#table{
+    width: 100%;
+}
+#cap{
+    background-color: chartreuse;
+}
+#list{
+    text-align: center;
+    width: 100%;
+}
+#Where_to_write_CSS{
+    background-color: gold;
+
+}
+#Basic_CSS_syntax{
+background-color: grey;
+}
+#Basic_CSS_selectors{
+background-color: indianred;
+}
+#Basic_selector_combinations{
+background-color: royalblue;
+}
+#Compound_selectors{
+background-color: seagreen;
+}
+#CSS_Text{
+background-color: sienna;
+}
+#Shadow{
+background-color: tan;
+}
+#font-size{
+    font-size: 40px;
+}
+#color{
+    font-size: 40px;
+color: red;
+}
+#font-weight{
+    font-size: 40px;
+    font-weight: bolder;
+}
+#font-style{
+    font-size: 40px;
+    font-style:italic;
+}
+#font-family{
+    font-size: 40px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+#text-decoration{
+    font-size: 40px;
+    text-decoration:overline
+}
+#text-shadow{
+    text-shadow:3px 3px 0px green;
+}

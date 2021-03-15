@@ -1,0 +1,61 @@
+.sections .div123{
+    text-align: center;
+    font-size: 30px;
+}
+.sections .div123 p p{
+    font-size: 20px;
+}
+
+body {
+    background-color: #ccc;
+}
+.sections {
+    text-align: center;
+}
+.sections b{
+    font-size: 30px;
+}
+input[type="text"] {
+    height: 40px;
+    padding: 10px;
+    background-color: #fff;
+    box-shadow: 2px 2px 2px 1px black;
+    border: none;
+    font-size: 20px;
+    border-radius: 50px;
+}
+
+input[type='radio'] {
+    display: none;
+}
+
+input[type='radio']+label>span {
+    display: inline-block;
+    width: 60px;
+    height: 30px;
+    background-color: #ccc;
+    border-radius: 15px;
+    background-image: radial-gradient(closest-side circle at center, #777 70%, transparent 85%);
+    background-size: 30px 30px;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+input[type='radio']:checked+label>span {
+    background-color: green;
+    background-position: right;
+    background-image: radial-gradient(closest-side circle at center, #4f4 70%, transparent 85%);
+}
+
+input[type='file'] {
+    display: none;
+}
+
+input[type='file']+label {
+    background-image: linear-gradient(to bottom, #aaa, #999);
+    padding: 10px;
+    border: 1px solid #555;
+    color: white;
+}
+
+

@@ -1,0 +1,16 @@
+td{
+    border: 1px solid rgb(64, 82, 127);
+}
+th{
+    border: 1px solid rgb(64, 82, 127);
+}
+.tr1{
+    height: 50px;text-align: center;
+}
+#td1{
+    height:50px
+}
+#table2{
+    width: 100%;
+    text-align: center;
+}

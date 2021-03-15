@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "OpenSans";
+}
+header{
+    background-color: #8e8e8e;
+}
+.container{
+    width: 1280px;
+    padding: 10px 140px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+.present{
+    padding-bottom: 40px;
+    padding-top: 40px;
+    text-align: justify;
+   
+    background-color: #ffffff;
+}
+.greeting{
+    padding-bottom: 60px;
+    padding-left: 40px;
+    font-weight: bolder;
+}
+.grad{
+    width: 100%;
+    height: 270px;
+    background-repeat: no-repeat;
+    background-size:695px 120px,300px 120px,1600px 270px ,495px 270px ,695px 270px ;
+    background-position:bottom right,bottom left,bottom left,bottom right,bottom right;
+    background-image:
+    linear-gradient(to top left,#ffffff 50%, transparent 50%),
+    linear-gradient(to top right,#ffffff 50%, transparent 50%),
+    linear-gradient(to top right,#8e8e8e 50%, transparent 50%),
+    linear-gradient(to top left,#8e8e8e 50%, transparent 50%),
+    linear-gradient(to top left,#ff9906 50%, transparent 50%);
+}
+.grad div{
+    width:480px ;
+    height:50px ;
+    padding-top: 95px;
+    padding-left: 17px;
+    font-size: 15px;
+    color: #e6e6e6;
+}
+.complete{
+padding-top: 95px;
+padding-left: 40px;
+font-weight: bolder;
+}

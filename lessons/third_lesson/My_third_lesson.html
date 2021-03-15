@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My third lesson</title>
+    <link rel="stylesheet" href="style/style_my_third_lesson.css">
+    <link rel="stylesheet" href="../../style/style_cap.css">
+</head>
+<body>
+    
+        <header >
+            <div class="container">
+            <div >
+                <div class="logo"></div>
+                    <h1>Мое третье занятие</h1>
+            </div>
+            <nav>
+                <a href="../../Home.html" class="blue">О себе</a>
+                <a href="../../My_goals.html" class="blue">Мои цели</a>
+                <a href="../lessons.html"class="white">Занятия</a>
+                <a href="../../layout/layout.html"class="blue">Макеты</a>
+                <a href="https://google.com" target="_blank" class="blue">Google</a>
+            </nav>
+        </div>
+        
+        </header>
+        <main >
+            <nav>
+                <a href="../first_lesson/My_first_lesson.html" class="blue">мое первое занятие</a>
+                <a href="../second_lesson/My_second_lesson.html" class="blue">мое второе занятие</a>
+                <a href="#" class="white">мое третье занятие</a>
+                <a href="../fourth_lesson/My_fourth_lesson.html" class="blue">мое четвертое занятие</a>
+                <a href="../fifth_lesson/My_fifth_lesson.html" class="blue">мое пятое занятие</a>
+                <a href="../sixth_lesson/sixth_lesson.html" class="blue">мое шестое занятие</a>
+            <a href="../seventh_lesson/seventh_lesson.html" class="blue">мое седьмое занятие</a>
+            <a href="../eighth_lesson/eighth_lesson.html" class="blue">мое восьмое занятие</a>
+            <a href="../ninth_lesson/ninth_lesson.html" class="blue">мое девятое занятие</a>
+            </nav>
+           <div class="container2">
+            <table id="table" >
+        <tbody>
+            <tr >
+                <td id="Where_to_write_CSS">
+<b>Где писать CSS?</b>
+<p>&#60;div style = "CSS-правило"&#62;&#60;/div&#62;</p>
+<hr>
+<p>&#60;head&#62;</p>
+<p>&#60;title&#62;title&#60;/title&#62;</p>
+<p>&#60;style&#62;</p>
+<p>Можно CSS - код писать здесь</p>
+<p>&#60;/style&#62;</p>
+<p>....</p>
+<hr>
+<p>&#60;head&#62;</p>
+<p>&#60;title&#62;title&#60;/title&#62;</p>
+<p>&#60;link rel= 'stylesheet'href='1.css'/&#62;</p>
+<p>...</p>
+
+</td>
+</tr>
+<tr>
+    <td id="Basic_CSS_syntax">
+<b>Основной CSS синтаксис</b>
+<p>CSS-selector { Selector {}}</p>
+<p>CSS-propertylist {property:value;}</p>
+<p>CSS-rute {Selector{property:value;}}</p>
+
+</td>
+</tr>
+
+<tr>
+    <td id="Basic_CSS_selectors">
+<b>Базовые CSS селекторы</b>
+<p>*</p>
+<p>.classname</p>
+<p>#id</p>
+<p>tagname</p>
+
+</td>
+</tr>
+
+<tr>
+    <td id="Basic_selector_combinations">
+<b>Комбинации базовых селекторов</b>
+<p>#id.classname</p>
+<p>tagname#id.classname</p>
+<p>tagname.classname</p>
+<p>tagname#id</p>
+
+</td>
+</tr>
+
+<tr>
+    <td id="Compound_selectors">
+<b>Составные селекторы</b>
+<p>ИЛИ selector1,selector2</p>
+<p>"Прямая вложенность"selector1&#62;selector2</p>
+<p>"Любая вложенность"selector1 selector2</p>
+<p>"Следующий элемент"selector1+selector2</p>
+<p>"Следующий элемент"selector1~selector2</p>
+<p>"Присутствие атрибута"selector[attr]</p>
+<p>"Значение атрибута равно"selector[attr="val"]</p>
+<p>"Значение атрибута содержит"selector[attr&#8226;="val"]</p>
+<p>"Значение атрибута начинается на "selector[attr&#8743;="val"]</p>
+<p>"Значение атрибута заканчивается на "selector[attr$="val"]</p>
+<p>"выделение из запятой "selector[attr~="val"]</p>
+
+</td>
+</tr>
+<tr>
+    <td id="CSS_Text">
+<b>CSS.Текст</b>
+<b>Размер</b>
+<p id="font-size">font-size:</p>
+<p>16px</p>
+<p>14pt</p>
+<p>1em</p>
+<p>100%</p>
+<p>10vw</p>
+<p>10vh</p>
+<hr>
+<b>Цвет</b>
+<p id="color">color:</p>
+<p>red</p>
+<p>#FF0000</p>
+<p>#F00</p>
+<p>rgb(255,0,0)</p>
+<p>rgba(255,0,0,0.5)</p>
+<p>hsl(0,100%,50%)</p>
+<p>hsla(0,100%,50%,0.5)</p>
+<hr>
+<b>Толщина</b>
+<p id="font-weight">font-weight:</p>
+<p>normal</p>
+<p>bold</p>
+<p>bolder</p>
+<p>lighter</p>
+<p>100...900</p>
+<hr>
+<b>Наклон</b>
+<p id="font-style">font-style</p>
+<p>normal</p>
+<p>italic</p>
+<p>oblique</p>
+<hr>
+<b>Шрифт</b>
+<p id="font-family">font-family:</p>
+<p>arial</p>
+<p>verdana</p>
+<p>helvetica</p>
+<p>....</p>
+<hr>
+<b>Линии</b>
+<p id="text-decoration">text-decoration</p>
+<p>none</p>
+<p>overline</p>
+<p>underline</p>
+<p>line-threw</p>
+
+
+    </td>
+</tr>
+        </tbody>
+        <tfoot>
+<tr>
+    <td id="Shadow">
+        <b>Тень</b>
+<p>text-shadow: 3px 3px 0px green;</p>
+<b id="text-shadow">WWW</b>
+    </td>
+</tr>
+        </tfoot>
+    </table>
+</div>
+</main>
+<footer class="container2">
+    <div class="Our_Web">Hillel lesson &copy;</div>
+</footer>
+</body>
+</html>
