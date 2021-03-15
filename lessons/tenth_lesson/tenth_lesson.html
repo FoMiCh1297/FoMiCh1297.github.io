@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../../style/style_cap.css">
+</head>
+<body>
+    <header >
+        <div class="container">
+        <div >
+            <div class="logo"></div>
+                <h1>Мое десятое занятие</h1>
+        </div>
+        <nav>
+            <a href="../../Home.html" class="blue">О себе</a>
+            <a href="../../My_goals.html" class="blue">Мои цели</a>
+            <a href="../lessons.html"class="white">Занятия</a>
+            <a href="../../layout/layout.html"class="blue">Макеты</a>
+            <a href="https://google.com" target="_blank" class="blue">Google</a>
+        </nav>
+    </div>
+    </header>
+    <main>
+        <nav>
+            <a href="../first_lesson/My_first_lesson.html" class="blue">мое первое занятие</a>
+            <a href="../second_lesson/My_second_lesson.html" class="blue">мое второе занятие</a>
+            <a href="../third_lesson/My_third_lesson.html" class="blue">мое третье занятие</a>
+            <a href="../fourth_lesson/My_fourth_lesson.html" class="blue">мое четвертое занятие</a>
+            <a href="../fifth_lesson/My_fifth_lesson.html" class="blue">мое пятое занятие</a>
+            <a href="../sixth_lesson/sixth_lesson.html" class="blue">мое шестое занятие</a>
+            <a href="../seventh_lesson/seventh_lesson.html" class="blue">мое седьмое занятие</a>
+            <a href="../eighth_lesson/eighth_lesson.html" class="blue">мое восьмое занятие</a>
+            <a href="../ninth_lesson/ninth_lesson.html" class="blue">мое девятое занятие</a>
+            <a href="#" class="white">мое десятое занятие</a>
+        </nav>
+        <div class="container2">
+            <div class="sections">
+            <h2>  <a href="https://ru.wikipedia.org/wiki/GitHub" target="_blank">  GitHub </a></h2>
+            <div>
+                <p> GitHub — крупнейший[7] веб-сервис для хостинга IT-проектов и их совместной разработки. </p></div>
+            </div>
+            <div class="sections">
+                <h2>Базовые команды</h2>
+                <br>git clone адрес репозитория - клонировать репозиторий на локальный компютер<br>
+git commit -m 'initial commit' комит изменений в локальный репозиторий<br>
+git push -u origin master - только первый раз отправка изменений в удаленный репозиторий<br>
+git push - все последующие разы отправка изменений в удаленный репозиторий<br>
+
+окат изменений<br>
+git pull - скачивается актуальная версия удаленного репозитория и все изменения применяются к локальному репозиторию<br>
+checkout - перейти в другую ветку<br>
+discard - не отправлять в репозиторий те изменения которые нам не нравятся<br>
+revert - откатить существующие комиты<br>
+hard reset -откатить целую пачку комитов<br>
+
+работа с ветками<br>
+merge - сначала подтягиваем в свою ветку из master все изменения<br>
+merge - потом тестируем и делаем слияние переходим (checkout) в master и применяем (merge) все изменения из нашей ветки<br>
+
+git commit -a -m 'commit all edited files' закомитить все измененные файлы безиспользования команды git add<br>
+git clone - скачивание репозитория <br>
+git status - просмотр текущих изменений <br>
+git add - добавить файл в локальный репозиторий <br>
+git commit - коммит в локальный репозиторий <br>
+git push - коммит в удаленный репозиторий<br>
+
+
+Работа с ветками<br>
+git branch -a  посмотреть в какой ветке мы находимся и показать все ветки ключ -а   all<br>
+git branch newbranch  - создать новую ветку с именем newbranch<br>
+git checkout newbranch - перейти в новую ветку<br>
+git push origin newbranch -  (сначала переключиться на мастер) отправить в удаленный репозиторий ветку newbranch<br>
+git branch -d newbranch - удалить ветку newbranch из локального репозитория <br>
+git push origin --delete newbranch - удалить ветку newbranch в удаленном репозитории<br>
+            </div>
+            </div>
+        </main>
+</body>
+</html>
