@@ -12,6 +12,10 @@ header nav{
     background-color: #313030;
     text-align: center;
 }
+header nav a:hover{
+    background-color: #ff3f40;
+    transition: background 1s ease;
+}
 header nav a{
     display: inline-block;
     color: white;
@@ -21,10 +25,9 @@ header nav a{
     text-decoration: none;
     text-transform: uppercase;
     font-weight: bold;
+    transition: background 1s ease;
 }
-header nav a.active{
-    background-color: #ff3f40;
-}
+
 .present{
     text-align: justify;
     padding-bottom: 60px;
@@ -159,6 +162,17 @@ padding-top: 70px;
     text-transform: uppercase;
     font-weight: bold;
 }
+.present2 nav a:hover{
+    display: inline-block;
+    color: #ff3f40;
+    line-height: 80px;
+    padding: 10px 30px 0 30px;
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: color 1s ease;
+}
 .squares{
     padding-top: 60px;
     width: 100%;
@@ -170,6 +184,17 @@ text-align: center;
     background-color: #f5f0dd ;
     width: 290px;
     height: 290px;
+   background-image: url('../img/priroda1.jpg');
+   background-size: cover;
+}
+.squares div:hover{
+    margin: 5px 5px;
+    display: inline-block;
+    background-color: #f5f0dd ;
+    width: 290px;
+    height: 290px;
+    transform: scale(2);
+    transition: transform 2s ease;
 }
 .container .present3 h2{
     padding-top: 100px;
@@ -219,6 +244,19 @@ text-align: center;
     width: 195px;
     height: 210px;
     background-color:#f5f0dd  ;
+    background-image: url('../img/priroda1.jpg');
+    background-size: cover;
+}
+.set_of_squares div:hover{
+    display: inline-block;
+    margin: 5px 5px;
+    width: 195px;
+    height: 210px;
+    background-color:#f5f0dd  ;
+    transform: scale(2);
+    background-image: url('../img/priroda1.jpg');
+    background-size: cover;
+    transition: transform 2s ease;
 }
 .data nav a{
     display: inline-block;
@@ -229,6 +267,17 @@ text-align: center;
     text-decoration: none;
     text-transform: inherit;
     font-weight: normal;
+}
+.data nav a:hover{
+    display: inline-block;
+    color: #fd0808;
+    line-height: 80px;
+    padding: 10px 30px 0 30px;
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: inherit;
+    font-weight: normal;
+    transition: color 1s ease;
 }
 .desing{
     text-align: center;
@@ -277,6 +326,21 @@ input[type='email']{
     color: #ffffff;
     background-color:#ff3f40 ;
     vertical-align: top;
+    transition: background 1s ease;
+}
+.get_email input[type='submit']:hover{
+    line-height: 80px;
+    font-size: 20px;
+    padding: 0 65px;
+    border: 2px solid #ffffff;
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: bold;
+    color: #ff3f40;
+    background-color:#ffffff ;
+    vertical-align: top;
+    transition: background 1s ease;
 }
 .desing .email_sub .button_2{
     line-height: 80px;
@@ -365,6 +429,19 @@ input[type='name']{
     border-radius: 6px;
     font-weight: bold;
     color: white;
+    transition: background 1s ease;
+}
+.Type_SEND input[type='submit']:hover{
+    line-height: 55px;
+    padding: 0 310px;
+    border: 2px solid #ffffff;
+    background-color: #ffffff ;
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: bold;
+    color: #ff3f40;
+    transition: background 1s ease;
 }
 .Name_Mail_Type__SEND_Cotact .Contact_info{
     margin-top: 75px;
@@ -435,10 +512,12 @@ input[type='name']{
     border-radius: 6px;
     font-weight: bold;
     color: #ff3f40;
+    transition: background 1s ease;
 }
 .button:hover{
     background-color: #ff3f40 ;
     color: white;
+    transition: background 1s ease;
 }
 .last-line{
     display: inline-block;
