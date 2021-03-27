@@ -1,0 +1,15 @@
+@font-face{
+    font-family: "SourceSanaPro";
+    font-weight: bold;
+    src: url("SourceSanaPro-Bold.ttf");
+}
+@font-face{
+    font-family: "SourceSanaPro";
+    font-weight: bolder;
+    src: url("SourceSanaPro-SemiBold.ttf");
+}
+@font-face{
+    font-family: "SourceSanaPro";
+    font-weight: normal;
+    src: url("SourceSanaPro-Regular.ttf");
+}
