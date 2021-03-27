@@ -54,7 +54,7 @@ header .container .nav_header nav a:hover{
     border-bottom: solid #5094f2;
     padding-bottom: 22px;
 }
-@media (min-width: 640px) and (max-width: 1024px){
+@media screen and (max-width: 640px) {
     .container{
         width: 640px;
         margin: 0 auto;
@@ -157,7 +157,7 @@ section .container .text_iphone .button .lo{
     height: 23px;
     margin-right: 10px;
     }
-    @media (min-width: 640px) and (max-width: 1024px){
+    @media screen and (max-width: 640px) {
         section .container{
             width: 640px;
             height: 245px;
@@ -310,7 +310,7 @@ section .container2 .con_blo .con_text_2{
     margin-left: -30px;
     margin-bottom: 90px;
 }
-@media (min-width: 640px) and (max-width: 1024px){
+@media screen and (max-width: 640px){
     section .container2{
         margin: 0 auto;
         width: 640px;
@@ -451,7 +451,7 @@ font-size: 45px;
 line-height: 35px;
 color: #979797;
 }
-@media (min-width: 640px) and (max-width: 1024px){
+@media screen and (max-width: 640px){
     section .container3{
         margin: 40px auto 40px auto;
         width: 640px;
@@ -504,7 +504,7 @@ footer .container4 p{
     color:#909090;
     line-height: 70px;
 }
-@media (min-width: 640px) and (max-width: 1024px){
+@media screen and (max-width: 640px){
     footer .container4{
         border-top: solid 1px #e5e5e5 ;
         width: 640px;
