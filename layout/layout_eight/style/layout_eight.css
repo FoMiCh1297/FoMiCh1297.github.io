@@ -65,19 +65,18 @@ header .container .nav_header nav a:hover{
 
 @media screen and (max-width: 768px) {
     header .container{
-    
+        text-align: center;
         width: 100%;
         margin: 0 auto;
         box-sizing: border-box;
         background-color: rgb(255, 255, 255);
     }
-   
     header .container div{
         display: inline-block;
         line-height: 30px;
     }
     header .container .block_logo{
-       
+   
         width: 50px;
         height: 50px;
         background-color: #5094f2;
@@ -89,20 +88,34 @@ header .container .nav_header nav a:hover{
         font-size: 100px;
     }
     header .container .logo_name{
-        padding-left: 15px;
+     
         font-size: 65px;
     }
-    header .container .nav_header nav{
+    header .container .nav_header nav a{
        display: none;
+      
     }
     header .container .nav_header{
-        margin-left: 30vw;
-        text-align: right;
+        margin-left: 25vw;
         width: 60px;
         height: 45px;
         background-color: #5094f2;
-   
+        background-image: url("../img/Shape3copy.png"),
+        url("../img/Shape3copy.png"),  url("../img/Shape3copy.png");
+background-repeat: no-repeat,no-repeat,no-repeat;
+background-position: 12px 75%, 
+                     12px 50%,
+                     12px 25%;
+     }
+     @media screen and (max-width: 460px){
+        header .container .nav_header{
+            margin-left: 0vw;
+            width: 60px;
+            height: 45px;
+            background-color: #5094f2;
        
+           
+         }
      }
 }
 section .container{
@@ -196,6 +209,7 @@ margin-right: 10px;
             height: 213px;
         }
         section .container .text_iphone{
+              padding-top: 7%;
             width:291px;
             height:190px;
             text-align: top;
@@ -242,6 +256,74 @@ margin-right: 10px;
             width: 30px;
             height: 30px;
             background-size: 100%;
+            }
+            @media screen and (max-width: 460px){
+                section .container{
+                    width: 100%;
+                   padding-left: -20;
+                    background-image: url("../img/ds.png");
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                   
+                }
+                section .container .iphone_img{
+                    display: inline-block;
+                    background-repeat: no-repeat;
+                    background-image: url("../img/iphone.png");
+                    background-size: 100%;
+                    width: 130px;
+                    height: 150px;
+                }
+                section .container .text_iphone{
+                    padding-top: 2%;
+                    width:100px;
+                    height:190px;
+                    text-align: top;
+                    display: inline-block;
+                    vertical-align: top;
+                    line-height: 20px;
+                    margin-left: 20px;
+                   
+                }
+                section .container .text_iphone .lorem_big{
+                    font-size: 15px;
+                }
+                section .container .text_iphone .lorem_min{
+                    margin-top: 5px;
+                    width: 140px;
+                    font-size: 15px;
+                   
+                }
+                section .container .text_iphone .button{
+                    padding-left: 7px;
+                    width: 115px;
+                    margin-top: 10px;
+                    font-size: 15px;
+                    display: inline-block;
+                    background-color: #5094f2;
+                    color: #fff;
+                    border-radius: 2px;
+                }
+                section .container .text_iphone .button:hover{
+                    padding-left: 7px;
+                    width: 115px;
+                    margin-top: 10px;
+                    font-size: 15px;
+                    display: inline-block;
+                    background-color: #fff;
+                    color: #5094f2;
+                    border-radius: 2px;
+                }
+                section .container .text_iphone .button .lo{
+                    vertical-align: bottom;
+                    padding-bottom: 15px;
+                    display: inline-block;
+                    background-repeat: no-repeat;
+                    background-image: url("../img/Shape2.png");
+                    width: 15px;
+                    height: 15px;
+                    background-size: 100%;
+                    }
             }
     }
     section .container2{
@@ -438,6 +520,111 @@ section .container2 .con_blo .con_text_2{
     margin-top: 0px;
     margin-left: -0px;
     margin-bottom: 0px;
+   
+}
+@media screen and (max-width: 460px){
+    section .container2{
+        margin: 0 auto;
+        width: 100%;
+        background-color: #fff;
+
+     
+    }
+section .container2 .con_blo{
+    margin-left: 0px;
+    
+    width: 100%;
+    border-bottom: solid 1px #e5e5e5;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+section .container2 .con_blo .img_1{
+    display: inline-block;
+    height: 80px;
+    width: 80px;
+    background-color: #5094f2;
+    border-radius: 50%;
+}
+section .container2 .con_blo .img_1 .img_1_im{
+    background-image: url("../img/img_1.png");
+    background-repeat: no-repeat;
+    background-size: 40%;
+    width: 80px;
+    height: 60px;
+    position: relative;
+    left: 29%;
+    top:20%;
+}
+section .container2 .con_blo .img_2{
+    display: inline-block;
+    height: 80px;
+    width: 80px;
+    background-color: #d94748;
+    border-radius: 50%;
+}
+section .container2 .con_blo .img_2 .img_2_im{
+    background-image: url("../img/img_2.png");
+    background-repeat: no-repeat;
+    background-size: 65%;
+    height: 60px;
+    width: 70px;
+    position: relative;
+    left: 23%;
+    top:25%;
+}
+section .container2 .con_blo .img_3{
+    display: inline-block;
+    height: 80px;
+    width: 80px;
+    background-color: #ebbb11;
+    border-radius: 50%;
+}
+section .container2 .con_blo .img_3 .img_3_im{
+    background-image: url("../img/img_3.png");
+    background-repeat: no-repeat;
+    background-size: 60%;
+    height: 60px;
+    width: 80px;
+    position: relative;
+    left: 19%;
+    top:20%;
+}
+section .container2 .con_blo .blo_tex_con{
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 10px;
+}
+section .container2 .con_blo .con_1{
+    text-align: left;
+    margin-left: 0px;
+    margin-top: 0px;
+    color: #5094f2;
+    font-size: 5.5vw;
+}
+section .container2 .con_blo .con_2{
+    text-align: left;
+    margin-left: 0px;
+    margin-top: 0px;
+    color: #5094f2;
+    font-size: 5.5vw;
+}
+section .container2 .con_blo .con_text_1{
+    text-align: left;
+    width: 60vw;
+   margin-top: 0px;
+   margin-left: 0px;
+   margin-bottom: 0px;
+   font-size: 5vw;
+}
+section .container2 .con_blo .con_text_2{
+    font-size: 5vw;
+    text-align: left;
+    width: 60vw;
+    margin-top: 0px;
+    margin-left: -0px;
+    margin-bottom: 0px;
+   
+} 
 }
 }
 section .container3{
@@ -524,6 +711,47 @@ color: #979797;
     line-height: 35px;
     color: #979797;
     }
+    @media screen and (max-width: 460px){
+        section .container3{
+            margin: 40px auto 40px auto;
+            width: 100%;
+            background-color: #fff;
+            padding-left: 0px;
+        }
+        section .container3 .blo{
+            vertical-align: top;
+        }
+        section .container3 .blo2{
+            margin-left: 0px;
+            vertical-align: top;
+            margin-top: 40px;
+            line-height: 30px;
+        }
+        .text_basket{
+            color: #6f7173;
+        text-align: center;
+        margin-bottom: 30px;
+        font-size: 30px;
+        }
+        .img_basket{
+            margin-left: 30px;
+            background-image: url("../img/cart.png");
+            background-repeat: no-repeat;
+            width: 185px;
+            height: 100px;
+            background-size: 70%;
+        }
+        .gla_text{
+            color: #6f7173;
+            font-size: 4.5vw;
+            margin-bottom: 20px;
+        }
+        .blo2 p{
+            font-size: 3vw;
+        line-height: 35px;
+        color: #979797;
+        }
+    }
 }
 footer .container4{
     text-align: center;
@@ -550,5 +778,20 @@ footer .container4 p{
         text-align: center;
         color:#909090;
         line-height: 70px;
+    }
+    @media screen and (max-width: 460px){
+        footer .container4{
+            border-top: solid 1px #e5e5e5 ;
+            width: 100%;
+            margin: 0 auto;
+            box-sizing: border-box;
+            background-color: #fff;
+        }
+        footer .container4 p{
+            text-align: center;
+            font-size: 15px;
+            color:#909090;
+            line-height: 70px;
+        }
     }
 }
