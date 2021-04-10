@@ -1,128 +1,164 @@
 
 .b{
 background-image:url('../img/Rectangle\ 2.png'), url('../img/Layer\ 4.png');
-width: 100%;
-height: 720px;
 background-size: 100% ;
 background-repeat: no-repeat;
+width: 100%;
 }
-.b .row{
-    padding-top: 50px;
+.b  .fd{
+    font-size:2vw ;
 }
 .b .a{
-   padding-top: 210px;
+    padding-top: 13vw;
 }
 .b .t{
-   
-    font-size: 50px;
+    width: 30vw;
     color:#fff;
 }
+
 .b .x{
-    padding-top: 50px;
-    font-size: 20px;
+    padding-top: 2vw;
+    font-size: 1vw;
     color:#fff;
+    width: 30vw;
 }
 .b .navbar{
     position: absolute;
     left: 17%;
     top: 5%;
 }
-.b .v{
-   width: 60px;
-   height: 60px;
-}
+
 .b .q{
-    position: absolute;
-   width: 300px;
-   height: 300px;
+    width: 15vw;
+    height: 15vw;
 }
+
 .b .a2{
-padding-left: 40vw;
+    margin-left:35vw;
+
+font-size: 2vw;
 color:#fff;
 text-decoration: none;
 }
+.b .row {
+    padding: 15vw 0 ;
+}
 .b .aa{
-    margin-left: 290px;
-    margin-top: 20px;
+    margin-top: 5vw;
 }
 .a .justify-content-center{
-    margin-top: 100px;
-    margin-bottom: 100px;
+    margin-top: 5vw;
+    margin-bottom: 5vw;
 }
 .a .aaa{
-    font-size: 30px;
+    font-size: 3vw;
+}
+.a .aaaa{
+    font-size: 1.5vw;
 }
 .a .bb{
-    width: 3em;
-    height: 3em;
+    width: 3vw;
+    height: 3vw;
 }
 .a .xx{
-    margin-top: 20px;
-    margin-bottom: 40px;
-}
-.a .g{
-   
+    margin-top: 3vw;
+    margin-bottom: 4vw;
 }
 .c{
     background-color: #52ad81;
     text-align: center;
-    padding-top: 30px;
+    padding-top: 3vw;
     color:#fff;
 }
 .c .g{
-    font-size: 50px;
-    line-height: 100px;
+    font-size: 3.3vw;
+    line-height: 5vw;
 }
 .c .gg{
-    margin-left: -490px;
+    margin: 0 auto;
+    font-size: 2vw;
 }
 .c .ggg{
     width: 80%;
 }
 .ho {
-    padding-top: 70px;
-text-align: center;
-width: 50%;
-margin: 0 auto;
+    padding-top: 4vw;
+    text-align: center;
+    margin: 0 auto;
 }
 .ho .g{
-    font-size: 30px;
+    font-size: 1.8vw;
+    font-weight: bold;
 }
 .ho .gg{
-    font-size: 15px;
-    line-height: 40px;
+    font-size: 1vw;
+    line-height: 3vw;
 }
 .ho .e{
-    margin-top: 100px;
+    margin-top: 4vw;
+    font-size: 2vw;
 }
 .ho .row .dd{
-    font-size: 25px;
+    font-size: 1.3vw;
     color: #fff;
 }
+.ho .tttt{
+    padding: 0 20vw;
+}
 .ho .gggg{
-    
-    line-height: 80px;
-    
+    line-height: 5vw;
+    font-size: 1.3vw;
 }
-.ho .gggg .col-3{
-    opacity: 0.5;
+
+
+.ho .text-secondary{
+    background-color: #e9eef3;
 }
-.ll {
-    margin-top: 40px;
-    margin-bottom: 80px;
+.ho .text-success{
+    background-color: #deebde;
+}
+.ho .text-info{
+    background-color: #dee9ec;
 }
 .lap {
-    font-size: 30px;
+    background-color: #e9eaed;
+}
+
+.ll {
+    margin-top: 3vw;
+    margin-bottom: 5vw;
+   
+}
+.ll .btn{
+     font-size: 1.3vw;
+}
+.lap {
+    font-size: 2vw;
+}
+.epe{
+    color: #000000;
 }
 .embed-responsive {
+text-align: center;
     margin: 0 auto;
-width: 100%;
-height: 50vw;
+    width: 100%;
+    height: 40vw;
+    
+    
+}
+.red{
+    background-color: red;
+    z-index: 10;
+    width: 100%;
+    height: 40vw;
+    position: absolute;
+    opacity: 0.3;
 }
 .ge{
-    width: 200px;
-    height: 200px;
+    width: 15vw;
+    height: 15vw;
     margin-bottom: 60px;
+    
 }
 .co {
     padding-top: 60px;
@@ -139,37 +175,51 @@ height: 50vw;
     
 }
 .Message{
-    line-height: 80px;
-    padding-right: 210px;
+    line-height: 5.3vw;
+    padding-right: 35vw;
+    font-size: 2vw;
 }
+
 .ac {
-    padding-right: 250px;
-    line-height: 80px;
+    padding-right: 25vw;
+    line-height: 5.3vw;
+    font-size: 1.5vw;
 }
 .ra {
-   
+   width: 80%;
+   margin-left: 6vw;
     background-color:#2d3136 ;
     border: solid 1px red;
 }
+.rr{
+    width: 80%;
+}
 .ala {
     margin-top: 20px;
-    margin-left: 110px;
-    
+    width: 30%;
+    margin-left: 12vw;
 }
 .gfgf{
-    width: 40px;
-    height: 40px;
+    width: 2vw;
+    height: 2vw;
 }
 .dada{
-    width: 50px;
-    height: 50px;
+    width: 2.5vw;
+    height: 2.5vw;
 }
 footer{
     background-color: #2a2d33;
 }
 .lk {
-    font-size: 15px;
+    font-size: 17px;
+    margin-left: 10px;
 }
 .lh {
-    margin-left: 120px;
+}
+.ptpt{
+    padding-left: 25vw;
+}
+.lk{
+    font-size: 1vw;
+    line-height: 3px;
 }
