@@ -1,3 +1,5 @@
 {
-    "liveServer.settings.port": 5501
+    "liveServer.settings.port": 5501,
+    "ecsstractor_port.comment_style": "css",
+    "ecsstractor_port.bem_nesting": true
 }
