@@ -811,7 +811,7 @@ body {
 .portfolio__button {
   margin: 2vw auto 0 auto;
   width: 11vw;
-  border: solid 2px #c0392b;
+  border: solid 0.5vw #c0392b;
   color: #c0392b;
   line-height: 4vw;
   border-radius: 1vw;
@@ -888,8 +888,7 @@ body {
     color: black;
   }
   .portfolio__button {
-    margin: 10vw auto 0 auto;
-    width: 22vw;
+    width: 30%;
     border: solid 0.5vw #c0392b;
     color: #c0392b;
     line-height: 6vw;
@@ -1163,14 +1162,6 @@ body {
 }
 .contacts__title {
   font-size: 3vw;
-}
-.contacts__title::after {
-  content: "";
-  display: block;
-  position: absolute;
-  background-color: black;
-  width: 65px;
-  height: 5px;
 }
 .contacts__icons {
   margin: 0 auto;
